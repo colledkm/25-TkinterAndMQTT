@@ -7,7 +7,7 @@ import time
 class DelegateThatReceives(object):
 
     def say_it(self, message,number,name):
-        for _ in range(number):
+        for _ in range(int(number)):
             print(name,"sent",message)
 
 
